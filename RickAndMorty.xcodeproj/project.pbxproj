@@ -60,7 +60,7 @@
 		0D69DE302A717FAB00378855 = {
 			isa = PBXGroup;
 			children = (
-				0D69DE3B2A717FAC00378855 /* RickAndMorty */,
+				0D69DE3B2A717FAC00378855 /* Intern_geeks */,
 				0D69DE3A2A717FAC00378855 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D69DE3B2A717FAC00378855 /* RickAndMorty */ = {
+		0D69DE3B2A717FAC00378855 /* Intern_geeks */ = {
 			isa = PBXGroup;
 			children = (
 				0D69DE602A72645D00378855 /* App */,
@@ -81,7 +81,7 @@
 				0D69DE622A726A3800378855 /* Model */,
 				0D69DE652A726A6B00378855 /* WorkFlow */,
 			);
-			path = RickAndMorty;
+			path = Intern_geeks;
 			sourceTree = "<group>";
 		};
 		0D69DE602A72645D00378855 /* App */ = {
@@ -106,7 +106,8 @@
 		0D69DE622A726A3800378855 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0D69DE542A7181C400378855 /* Constants.swift */,
+				78A692CE2AD44FA0001A4902 /* Constants */,
+				78A692CD2AD44F91001A4902 /* Delegate */,
 				0D69DE642A726A5300378855 /* Service */,
 				0D69DE632A726A4200378855 /* DTOs */,
 				0D69DE682A726AA600378855 /* Extensions */,
@@ -135,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				0D69DE662A726A8500378855 /* HomeVC */,
+				78A692CC2AD44EEC001A4902 /* DetailVC */,
 				0D69DE672A726A9000378855 /* FavoriteVC */,
 			);
 			path = WorkFlow;
@@ -145,9 +147,6 @@
 			children = (
 				0D69DE402A717FAC00378855 /* CharactersViewController.swift */,
 				0D69DE6B2A726C8600378855 /* CharactersViewModel.swift */,
-				0D69DE5C2A71AF5400378855 /* DetailsViewController.swift */,
-				0D69DE6D2A72703100378855 /* DetailsViewModel.swift */,
-				0D69DE6F2A7272EC00378855 /* Delegate.swift */,
 				0D69DE692A726AC300378855 /* Components */,
 			);
 			path = HomeVC;
@@ -183,6 +182,31 @@
 				0D69DE582A71A6C100378855 /* ImageDownloader.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		78A692CC2AD44EEC001A4902 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				0D69DE5C2A71AF5400378855 /* DetailsViewController.swift */,
+				0D69DE6D2A72703100378855 /* DetailsViewModel.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		78A692CD2AD44F91001A4902 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0D69DE6F2A7272EC00378855 /* Delegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		78A692CE2AD44FA0001A4902 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0D69DE542A7181C400378855 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
